@@ -76,3 +76,30 @@
 <meta name="keywords" content="JBR, Dinu Meghwanshi, RP GRAND, YouTuber, Bhilwara, JBR KING">
 <meta name="author" content="Dinu Meghwanshi">
 <meta name="robots" content="index, follow">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinu Meghwanshi - JBR KING MAFIYA</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 0, 255, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <img src="dinu_meghwanshi_banner.png" alt="Dinu Meghwanshi - JBR KING MAFIYA">
+</body>
+</html>
