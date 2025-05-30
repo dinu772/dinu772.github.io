@@ -79,7 +79,13 @@
     </p>
     <p style="text-align: right; font-weight: bold; color: #555;">- 𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</p>
 </section>
-        <a href="https://discord.gg/nRsbbp6X" target="_blank">Discord 2</a>
+        <a 
+            <!-- SEO Tags for Google Search -->
+<meta name="title" content="JBR KING DINU MEGHWANSHI">
+<meta name="description" content="Founder of JBR, YouTuber, Motivational Writer & RP GRAND Leader from Bhilwara.">
+<meta name="keywords" content="JBR, Dinu Meghwanshi, RP GRAND, YouTuber, Bhilwara, JBR KING">
+<meta name="author" content="Dinu Meghwanshi">
+<meta name="robots" content="index, follow">href="https://discord.gg/nRsbbp6X" target="_blank">Discord 2</a>
     </section>
 
     <footer>
