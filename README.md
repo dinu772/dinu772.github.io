@@ -56,14 +56,22 @@ MY OFFICIAL WEBSITE<!DOCTYPE html><html lang="hi">
     </header>
     <section class="section about">
         <h2>About Me</h2>
-        <p>मेरा नाम Dinu Meghwanshi है। मैं Bhilwara, Rajasthan से हूँ। मैंने JBR की शुरुआत की – जो मेहनत, समानता और सोच की रौशनी है। RP GRAND गेम में मेरी पहचान JBR KING के नाम से है। मैं एक यूट्यूबर, मोटिवेशनल लेखक और युवा लीडर हूँ।</p>
+        <p>मेरा नाम Dinu Meghwanshi है। मैं Bhilwara, Rajasthan से हूँ। RP GRAND गेम में मेरी पहचान JBR KING के नाम से है। मैं एक यूट्यूबर, मोटिवेशनल लेखक और युवा लीडर हूँ।</p>
     </section>
     <section class="section links">
         <h2>Connect with Me</h2>
         <a href="https://www.instagram.com/dinu_meghwanshiii?igsh=cGRvbHd0NmhjYncz" target="_blank">Instagram</a>
         <a href="https://youtube.com/@jbrking2.o" target="_blank">YouTube 1</a>
-        <a href="https://youtube.com/@ramdevsaund1" target="_blank">YouTube 2</a>
+        <a href="https://youtube.com/@ramdevsaund1" 
+         target="_blank">YouTube 2</a>
+    
         <a href="https://discord.gg/42PgVqMj" target="_blank">Discord 1</a>
+        <!-- SEO Tags for Google Search -->
+<meta name="title" content="JBR KING DINU MEGHWANSHI">
+<meta name="description" content="Founder of JBR, YouTuber, Motivational Writer & RP GRAND Leader from Bhilwara.">
+<meta name="keywords" content="JBR, Dinu Meghwanshi, RP GRAND, YouTuber, Bhilwara, JBR KING">
+<meta name="author" content="Dinu Meghwanshi">
+<meta name="robots" content="index, follow">
         <a href="https://discord.gg/nRsbbp6X" target="_blank">Discord 2</a>
     </section>
     <footer>
