@@ -22,21 +22,13 @@
             text-align: center;
         }
         .hero img {
-            width: 150px;
-            border-radius: 50%;
+            width: 250px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px #b300ff;
         }
         .hero h1 {
             font-size: 2rem;
             margin-top: 1rem;
-        }
-        .banner img {
-    width: 100%;
-    max-width: 1000px;
-    display: block;
-    margin: 2rem auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
         }
         .section {
             padding: 2rem;
@@ -48,6 +40,7 @@
             margin: 1rem;
             color: #000;
             text-decoration: none;
+            font-weight: bold;
         }
         footer {
             text-align: center;
@@ -59,15 +52,10 @@
 </head>
 <body>
     <header class="hero">
-        <img src="https://ibb.co/pBN8RMNd">
+        <img src="https://i.ibb.co/YRHGZNy/jbr-banner.png" alt="JBR KING DINU MEGHWANSHI">
         <h1>𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</h1>
         <p>JBR KING - जो बुझे नहीं, वो रौशनी बने!</p>
     </header>
-
-    <!-- Banner Image -->
-    <div class="banner">
-        <img src="dinu-banner.jpg" alt="Dinu Meghwanshi Banner">
-    </div>
 
     <section class="section about">
         <h2>About Me</h2>
