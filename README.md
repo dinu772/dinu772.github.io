@@ -67,7 +67,18 @@
         <a href="https://www.instagram.com/dinu_meghwanshiii?igsh=cGRvbHd0NmhjYncz" target="_blank">Instagram</a>
         <a href="https://youtube.com/@jbrking2.o" target="_blank">YouTube 1</a>
         <a href="https://youtube.com/@ramdevsaund1" target="_blank">YouTube 2</a>
-        <a href="https://discord.gg/42PgVqMj" target="_blank">Discord 1</a>
+    
+        <a href="https://discord.gg/42PgVqMj"
+        target="_blank">Discord 1</a>Index.html</footer><section class="section shayari" style="background: #fff0f5; border-left: 5px solid #b300ff; margin: 2rem auto; padding: 2rem; border-radius: 10px;">
+    <h2 style="text-align:center; color:#b300ff;">✨ शायरी ✨</h2>
+    <p style="font-size: 1.3rem; font-style: italic; text-align: center; color: #333; line-height: 2;">
+        "जिनके इरादों में हो आग, <br>
+        उन्हें रोक नहीं सकती कोई बाधा। <br>
+        मेहनत को जिसने बना लिया है इबादत, <br>
+        उसका नाम बनता है हर दास्तां में वादा।"
+    </p>
+    <p style="text-align: right; font-weight: bold; color: #555;">- 𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</p>
+</section>
         <a href="https://discord.gg/nRsbbp6X" target="_blank">Discord 2</a>
     </section>
 
