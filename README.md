@@ -52,7 +52,7 @@
 </head>
 <body>
     <header class="hero">
-        <img src="https://i.ibb.co/YRHGZNy/jbr-banner.png" alt="JBR KING DINU MEGHWANSHI">
+        <img src="jbr-banner.png" alt="JBR KING DINU MEGHWANSHI">
         <h1>𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</h1>
         <p>JBR KING - जो बुझे नहीं, वो रौशनी बने!</p>
     </header>
