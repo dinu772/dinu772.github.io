@@ -76,3 +76,4 @@
     </footer>
 </body>
 </html>
+<img src="logo.png" alt="JBR KING DINU Logo" width="150">
