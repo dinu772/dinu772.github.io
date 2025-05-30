@@ -30,12 +30,13 @@
             margin-top: 1rem;
         }
         .banner img {
-            width: 100%;
-            max-width: 800px;
-            display: block;
-            margin: 2rem auto;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
         }
         .section {
             padding: 2rem;
