@@ -1,3 +1,17 @@
+<section class="section shayari">
+  <h2>🌟 मेरी पसंदीदा शायरी</h2>
+  <p style="font-style: italic;">"जो ठोकर से न गिरा, वो अंबर को छूता है,<br>जो अंदर से टूटा, वही असल में जीता है।"</p>
+</section>
+<img src="..." alt="JBR KING DINU MEGHWANSHI">
+<link rel="icon" href="logo-link.jpg" type="image/jpeg">
+@media screen and (max-width: 600px) {
+  .section {
+      padding: 1rem;
+  }
+  header h1 {
+      font-size: 1.5rem;
+  }
+}
 <!DOCTYPE html>
 <html lang="hi">
 <head>
