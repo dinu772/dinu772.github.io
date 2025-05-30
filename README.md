@@ -59,7 +59,7 @@
 </head>
 <body>
     <header class="hero">
-        <img src="https://avatars.githubusercontent.com/u/17429377?s=400&u=2a2d5ac545bd71ccbc664a9e8b3c3dcf997f4db7&v=4" alt="JBR KING">
+        <img src="https://ibb.co/pBN8RMNd">
         <h1>𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</h1>
         <p>JBR KING - जो बुझे नहीं, वो रौशनी बने!</p>
     </header>
