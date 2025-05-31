@@ -109,3 +109,33 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <!-- ✅ SEO Meta Tags Start -->
+    <title>JBR KING DINU MEGHWANSHI | Official Website</title>
+    <meta name="description" content="Official website of JBR KING DINU MEGHWANSHI - Motivational Writer, YouTuber, and RP GRAND Leader from Rajasthan.">
+    <meta name="keywords" content="JBR, JBR KING, Dinu Meghwanshi, RP GRAND, YouTuber, Motivational Author, Rajasthan, Bhilwara">
+    <meta name="author" content="Dinu Meghwanshi">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ✅ Social Media SEO -->
+    <meta property="og:title" content="JBR KING DINU MEGHWANSHI">
+    <meta property="og:description" content="Official website of Motivational Writer and RP GRAND Leader - Dinu Meghwanshi">
+    <meta property="og:image" content="https://ibb.co/pBN8RMNd">
+    <meta property="og:url" content="https://www.jbrkingdinu.in">
+    <meta property="og:type" content="website">
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JBR KING DINU MEGHWANSHI">
+    <meta name="twitter:description" content="Motivational Writer, YouTuber, RP GRAND Leader from Rajasthan">
+    <meta name="twitter:image" content="https://ibb.co/pBN8RMNd">
+    <!-- ✅ SEO Meta Tags End -->
+
+    <!-- ✅ CSS और बाकी Scripts इसके नीचे डालो -->
+    <style>
+        /* your styles */
+    </style>
+</head>
