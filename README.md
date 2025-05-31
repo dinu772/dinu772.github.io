@@ -85,6 +85,7 @@
         <img src="https://i.ibb.co/pBN8RMN/logo.jpg" alt="JBR KING DINU MEGHWANSHI">
         <h1>𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</h1>
         <p>JBR KING - जो बुझे नहीं, वो रौशनी बने!</p>
+      
     </header>
     <section class="section about">
         <h2>About Me</h2>
@@ -106,6 +107,8 @@
     <footer>
         © 2025 𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲 | Powered by JBR<br>
         Made with ❤️ in  Rajasthan
+
+  
     </footer>
 </body>
 </html>
@@ -137,3 +140,220 @@
     <!-- ✅ CSS और बाकी Scripts इसके नीचे डालो -->
     <style>
         /* your styles */
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JBR KING Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    nav {
+      background: #222;
+      padding: 10px 20px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .lang-switcher {
+      cursor: pointer;
+      background: #444;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .hidden {
+      display: none;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+    }
+    form input {
+      margin-bottom: 15px;
+      padding: 8px;
+      font-size: 16px;
+    }
+    form button {
+      padding: 10px;
+      background: #222;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #555;
+    }
+    .page-content {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div>
+    <a href="#" data-page="home" class="nav-link">Home</a>
+    <a href="#" data-page="shayari" class="nav-link">Shayari</a>
+    <a href="#" data-page="motivational" class="nav-link">Motivational</a>
+  </div>
+  <div>
+    <span class="lang-switcher" id="langSwitcher">हिन्दी</span>
+  </div>
+</nav>
+
+<div class="container">
+
+  <!-- Login / Signup -->
+  <div id="authSection">
+    <h1 data-lang-en="Login or Signup" data-lang-hi="लॉगिन या साइनअप">Login or Signup</h1>
+    <form id="authForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit" id="authButton" data-lang-en="Login" data-lang-hi="लॉगिन">Login</button>
+      <p>
+        <span id="toggleAuthText" data-lang-en="Don't have an account? Signup" data-lang-hi="खाता नहीं है? साइनअप">Don't have an account? Signup</span>
+      </p>
+    </form>
+  </div>
+
+  <!-- Pages -->
+  <div id="homePage" class="page-content hidden">
+    <h1 data-lang-en="Welcome to JBR KING" data-lang-hi="JBR KING में आपका स्वागत है">Welcome to JBR KING</h1>
+    <p data-lang-en="This is the home page." data-lang-hi="यह होम पेज है।"></p>
+  </div>
+
+  <div id="shayariPage" class="page-content hidden">
+    <h1 data-lang-en="Shayari Collection" data-lang-hi="शायरी संग्रह">Shayari Collection</h1>
+    <p data-lang-en="Here are some beautiful Shayaris." data-lang-hi="यहाँ कुछ सुंदर शायरी हैं।"></p>
+    <ul>
+      <li data-lang-en="Zindagi ek safar hai suhana..." data-lang-hi="ज़िन्दगी एक सफर है सुहाना..."></li>
+      <li data-lang-en="Dil ke jazbaat ko alfaazon mein..." data-lang-hi="दिल के जज़्बात को अल्फाज़ों में..."></li>
+    </ul>
+  </div>
+
+  <div id="motivationalPage" class="page-content hidden">
+    <h1 data-lang-en="Motivational Quotes" data-lang-hi="प्रेरणादायक उद्धरण">Motivational Quotes</h1>
+    <p data-lang-en="Stay strong and keep moving forward!" data-lang-hi="मजबूत रहें और आगे बढ़ते रहें!"></p>
+    <ul>
+      <li data-lang-en="Success is not final, failure is not fatal..." data-lang-hi="सफलता अंतिम नहीं है, असफलता घातक नहीं है..."></li>
+      <li data-lang-en="Believe in yourself and all that you are." data-lang-hi="अपने आप पर विश्वास रखें और जो आप हैं।"></li>
+    </ul>
+  </div>
+
+</div>
+
+<script>
+  // Simple page switching
+  const links = document.querySelectorAll('.nav-link');
+  const pages = {
+    home: document.getElementById('homePage'),
+    shayari: document.getElementById('shayariPage'),
+    motivational: document.getElementById('motivationalPage'),
+  };
+  const authSection = document.getElementById('authSection');
+
+  links.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const page = e.target.dataset.page;
+      // Show page
+      Object.values(pages).forEach(p => p.classList.add('hidden'));
+      pages[page].classList.remove('hidden');
+      // Hide auth form after login (simulate)
+      authSection.style.display = 'none';
+    });
+  });
+
+  // Toggle Login/Signup form
+  let isLogin = true;
+  const authForm = document.getElementById('authForm');
+  const authButton = document.getElementById('authButton');
+  const toggleAuthText = document.getElementById('toggleAuthText');
+
+  toggleAuthText.addEventListener('click', () => {
+    isLogin = !isLogin;
+    if(isLogin){
+      authButton.textContent = getLangText(authButton, 'Login');
+      toggleAuthText.textContent = getLangText(toggleAuthText, "Don't have an account? Signup");
+    } else {
+      authButton.textContent = getLangText(authButton, 'Signup');
+      toggleAuthText.textContent = getLangText(toggleAuthText, "Already have an account? Login");
+    }
+  });
+
+  authForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const username = authForm.username.value.trim();
+    const password = authForm.password.value.trim();
+    if(username && password){
+      alert(isLogin ? `Welcome back, ${username}!` : `Account created for ${username}!`);
+      authSection.style.display = 'none';
+      pages.home.classList.remove('hidden');
+    }
+  });
+
+  // Language switcher
+  const langSwitcher = document.getElementById('langSwitcher');
+  let currentLang = 'en'; // default english
+
+  function getLangText(elem, enText){
+    return currentLang === 'en' ? elem.dataset.langEn || enText : elem.dataset.langHi || enText;
+  }
+
+  function updateLanguage(){
+    document.querySelectorAll('[data-lang-en]').forEach(el => {
+      el.textContent = currentLang === 'en' ? el.dataset.langEn : el.dataset.langHi;
+    });
+    // Update placeholder too
+    document.getElementById('username').placeholder = currentLang === 'en' ? 'Username' : 'यूज़रनेम';
+    document.getElementById('password').placeholder = currentLang === 'en' ? 'Password' : 'पासवर्ड';
+    // Update login/signup button & toggle text accordingly
+    if(isLogin){
+      authButton.textContent = currentLang === 'en' ? 'Login' : 'लॉगिन';
+      toggleAuthText.textContent = currentLang === 'en' ? "Don't have an account? Signup" : "खाता नहीं है? साइनअप";
+    } else {
+      authButton.textContent = currentLang === 'en' ? 'Signup' : 'साइनअप';
+      toggleAuthText.textContent = currentLang === 'en' ? "Already have an account? Login" : "पहले से खाता है? लॉगिन";
+    }
+  }
+
+  langSwitcher.addEventListener('click', () => {
+    currentLang = currentLang === 'en' ? 'hi' : 'en';
+    langSwitcher.textContent = currentLang === 'en' ? 'हिन्दी' : 'English';
+    updateLanguage();
+  });
+
+  // Initial language update
+  updateLanguage();
+
+</script>
+
+</body>
+</html>
