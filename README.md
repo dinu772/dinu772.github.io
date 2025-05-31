@@ -1,3 +1,18 @@
+<section id="motivational-dal-chawal" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 700px; margin: 30px auto; padding: 20px; background-color: #e8f0fe; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <h2 style="text-align: center; color: #2c3e50;">मोटिवेशनल शायरी - दाल-चावल से सीख</h2>
+  <p style="font-size: 18px; line-height: 1.6; color: #34495e; margin-top: 15px;">
+    दाल-चावल की सादगी में छुपा है संदेश,<br>
+    जीवन में बढ़ने का मिले हर दिन अवसर।<br>
+    जब लगे राहें हों कठिन, हिम्मत न खोना,<br>
+    सादा खाना है ताकत, आगे बढ़ने का जोश देना।  
+  </p>
+  <p style="font-size: 18px; line-height: 1.6; color: #34495e;">
+    छोटे छोटे कदमों से बनती है मंजिल,<br>
+    जैसे थाली में दाल-चावल से पूरा दिल।<br>
+    सपनों को पूरा करना है, बस एक विश्वास चाहिए,<br>
+    दाल-चावल की तरह, ज़िंदगी में संतुलन चाहिए।  
+  </p>
+</section>
 <section class="section shayari">
   <div style="max-width: 600px; margin: 40px auto; padding: 20px; 
             background: #f0f8ff; border-left: 6px solid #007bff; 
