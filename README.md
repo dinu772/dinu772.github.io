@@ -138,10 +138,7 @@
         Made with ❤️ in  Rajasthan
 
   
-    </footer>
-</body>
-</html>
-<!DOCTYPE html>
+    
 <html lang="hi">
 <head>
     <!-- ✅ SEO Meta Tags Start -->
