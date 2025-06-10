@@ -393,3 +393,19 @@
 </body>
 </html>
 <meta name="google-adsense-account" content="ca-pub-3168344498574632">
+<section class="section social-media" style="text-align: center;">
+    <h2>📲 Join & Follow Me</h2>
+    <p>Stay connected on my official platforms</p>
+
+    <a href="https://youtube.com/@jbrking2.o" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="40" style="margin: 10px;">
+    </a>
+    
+    <a href="https://discord.gg/42PgVqMj" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord" width="40" style="margin: 10px;">
+    </a>
+    
+    <a href="https://www.instagram.com/dinu_meghwanshiii?igsh=cGRvbHd0NmhjYncz" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="40" style="margin: 10px;">
+    </a>
+</section>
