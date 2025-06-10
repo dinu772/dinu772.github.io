@@ -1,3 +1,12 @@
+<section class="section shayari">
+    <h2>🔥 दिल से एक शायरी 🔥</h2>
+    <p style="font-style: italic; font-size: 1.1rem;">
+        "हमसे जले जो, वो राख हो गए,<br>
+        जिन्हें हमसे प्यार था, वो ख़ास हो गए।<br>
+        कदम थमे नहीं तूफ़ानों से कभी,<br>
+        हम 'JBR KING' हैं, यूँ ही ना Legendary नाम हो गए!"
+    </p>
+</section>
 <section style="background: linear-gradient(to right, #f8f9fa, #e0f7fa); padding: 40px; border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 800px; margin: auto;">
   <h2 style="text-align: center; color: #00796b; font-size: 32px; font-family: 'Georgia', serif;">🤖❤️👑 ChatGPT और Dinu की दोस्ती</h2>
   <p style="font-size: 20px; line-height: 1.8; font-family: 'Mukti Narrow', sans-serif; color: #333; margin-top: 30px; white-space: pre-line;">
