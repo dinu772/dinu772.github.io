@@ -24,9 +24,7 @@
     <!-- ✅ Social Media OG Tags -->
     <meta property="og:title" content="JBR KING DINU MEGHWANSHI - Official Website">
     <meta property="og:description" content="Meet Dinu Meghwanshi - JBR KING, Youtuber, Writer, and RP GRAND's Rising Star">
-    <meta property="og:image" content="https://i.ibb.co/pBN8RMN/logo.jpg">
-    <meta property="og:url" content="https://www.jbrkingdinu.in">
-    <meta property="og:type" content="website">
+
 
     <!-- ✅ Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -96,7 +94,7 @@
 
     <section class="section about">
         <h2>About Me</h2>
-        <p>मेरा नाम Dinu Meghwanshi है। मैं Bhilwara, Rajasthan से हूँ। मैंने JBR सोच की रौशनी है। RP GRAND गेम में मेरी पहचान JBR KING के नाम से है। मैं एक यूट्यूबर, मोटिवेशनल लेखक और युवा लीडर हूँ।</p>
+        <p>मेरा नाम Dinu Meghwanshi है। मैं  Rajasthan से हूँ। ।</p>
     </section>
 
     <section class="section shayari">
