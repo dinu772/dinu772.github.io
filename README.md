@@ -33,8 +33,7 @@
     <meta name="twitter:title" content="JBR KING DINU MEGHWANSHI">
     <meta name="twitter:description" content="Youtuber | Motivational Writer | RP GRAND Leader | Bhilwara">
     <meta name="twitter:image" content="https://i.ibb.co/pBN8RMN/logo.jpg">
-
-    <link rel="icon" href="https://i.ibb.co/pBN8RMN/logo.jpg" type="image/jpeg">
+    
     <title>JBR KING DINU MEGHWANSHI</title>
 
     <style>
@@ -110,8 +109,7 @@
         <a href="https://www.instagram.com/dinu_meghwanshiii" target="_blank">📸 Instagram</a>
         <a href="https://youtube.com/@jbrking2.o" target="_blank">▶️ YouTube 1</a>
         <a href="https://youtube.com/@ramdevsaund1" target="_blank">🎥 YouTube 2</a>
-        <a href="https://discord.gg/42PgVqMj" target="_blank">💬 Discord 1</a>
-        <a href="https://discord.gg/nRsbbp6X" target="_blank">🎮 Discord 2</a>
+
     </section>
 
     <footer>
