@@ -97,6 +97,152 @@ welcome-text {
   </style>
 </head>
 <body>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dosti Shayari 🤝</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1600185365522-d7617c2c0877?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .shayari-card {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    }
+
+    .shayari {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .shayari-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .shayari-actions button {
+      background: #00ced1;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .shayari-actions button:hover {
+      background: #00b3b3;
+    }
+
+    .like-count {
+      margin-left: 5px;
+      color: #ffff00;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #00ffff;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .credit {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 18px;
+      font-style: italic;
+      color: #a0f0ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🤝 दोस्ती की शायरी 🤝</h1>
+
+  <!-- Dosti Shayari Block 1 -->
+  <div class="shayari-card">
+    <div class="shayari">दोस्ती नाम है सुख-दुख की कहानी का, दोस्ती राज है सदा मुस्कुराने का।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <!-- Block 2 -->
+  <div class="shayari-card">
+    <div class="shayari">सच्चा दोस्त वही है जो तब साथ दे, जब सब साथ छोड़ जाएं।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <!-- Block 3 -->
+  <div class="shayari-card">
+    <div class="shayari">वो दोस्त ही क्या जो वक्त पर काम ना आए, और वक्त आने पर याद ना आए।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <!-- Block 4 -->
+  <div class="shayari-card">
+    <div class="shayari">दोस्ती चेहरे की मुस्कान होती है, दोस्ती ही तो ज़िन्दगी की जान होती है।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <!-- Block 5 -->
+  <div class="shayari-card">
+    <div class="shayari">तेरे जैसे दोस्त कमाल करते हैं, दूर रहकर भी देखभाल करते हैं।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    function likeShayari(button) {
+      let countSpan = button.querySelector('.like-count');
+      let count = parseInt(countSpan.textContent);
+      countSpan.textContent = count + 1;
+    }
+
+    function commentShayari() {
+      alert("💬 Comment feature coming soon!");
+    }
+
+    function shareShayari() {
+      alert("🔗 Link copied (feature coming soon!)");
+    }
+  </script>
+
+  <div class="credit">✍️ Writer: 𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</div>
+
+</body>
+</html>
 
   <h1>💖 तेरे इश्क़ में... 💖</h1>
 
