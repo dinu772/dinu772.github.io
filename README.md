@@ -514,3 +514,40 @@ function shareShayari() {
   </div>
 </body>
 </html>
+<head>
+  ...
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      height: auto;
+      overflow-x: hidden;
+      background-color: #000; /* या जो भी आपकी background color है */
+    }
+
+    section#shayari {
+      margin-bottom: 100px; /* नीचे scroll हो सके */
+    }
+  </style>
+</head>
+<!-- Existing Shayari JavaScript replace करो -->
+<script>
+function likeShayari(btn) {
+  const card = btn.closest('.shayari-card');
+  const id = card.innerText.slice(0, 20); // unique ID from text
+  let count = parseInt(localStorage.getItem(id) || "0") + 1;
+  localStorage.setItem(id, count);
+  btn.querySelector(".like-count").innerText = count;
+}
+
+window.onload = function () {
+  document.querySelectorAll('.shayari-card').forEach(card => {
+    const btn = card.querySelector('button');
+    const id = card.innerText.slice(0, 20);
+    const count = localStorage.getItem(id) || "0";
+    btn.querySelector(".like-count").innerText = count;
+  });
+}
+</script>
+<h1>𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</h1>
