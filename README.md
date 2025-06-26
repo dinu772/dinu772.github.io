@@ -1,39 +1,3 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  height: auto;
-  min-height: 100vh;
-  overflow-x: hidden;
-  background-color: black;
-}
-function likeShayari(btn) {
-  const id = btn.closest('.shayari-card').innerText.slice(0, 10); // unique id
-  let count = parseInt(localStorage.getItem(id) || "0") + 1;
-  localStorage.setItem(id, count);
-  btn.querySelector(".like-count").innerText = count;
-}
-
-window.onload = function () {
-  document.querySelectorAll('.shayari-card').forEach(card => {
-    const btn = card.querySelector('button');
-    const id = card.innerText.slice(0, 10);
-    const count = localStorage.getItem(id) || "0";
-    btn.querySelector(".like-count").innerText = count;
-  });
-}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JBR KING DINU</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
 
     .welcome-text {
       text-align: center;
