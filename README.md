@@ -1,5 +1,4 @@
-
-    .welcome-text {
+welcome-text {
       text-align: center;
       font-size: 48px;
       font-weight: bold;
