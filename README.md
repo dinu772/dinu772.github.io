@@ -62,6 +62,139 @@ window.onload = function () {
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Love Shayari 💖</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      padding: 30px;
+    }
+
+    .shayari-card {
+      background: rgba(0, 0, 0, 0.65);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 20px rgba(255, 0, 100, 0.3);
+    }
+
+    .shayari {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .shayari-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .shayari-actions button {
+      background: #ff1c78;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .shayari-actions button:hover {
+      background: #ff4c98;
+    }
+
+    .like-count {
+      margin-left: 5px;
+      color: #fff700;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #ffaad4;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .credit {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 18px;
+      font-style: italic;
+      color: #ffc7e3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💖 तेरे इश्क़ में... 💖</h1>
+
+  <!-- Shayari Block -->
+  <div class="shayari-card">
+    <div class="shayari">तू पास नहीं तो क्या हुआ, तेरा एहसास हर पल मेरे साथ होता है।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <div class="shayari-card">
+    <div class="shayari">तेरा नाम लूं तो होंठ मुस्कुरा देते हैं, जैसे मेरी रूह को सुकून मिल गया हो।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <div class="shayari-card">
+    <div class="shayari">तुझसे मिलकर जाना की इश्क़ क्या होता है, वरना हमने तो सिर्फ कहानियों में सुना था।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <div class="shayari-card">
+    <div class="shayari">तेरे बिना ये जिंदगी अधूरी सी लगती है, जैसे चाँद बिना रात के।</div>
+    <div class="shayari-actions">
+      <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+      <button onclick="commentShayari()">💬</button>
+      <button onclick="shareShayari()">🔗</button>
+    </div>
+  </div>
+
+  <!-- Add more cards as needed -->
+
+  <div class="credit">✍️ Writer: 𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</div>
+
+  <script>
+    function likeShayari(button) {
+      let countSpan = button.querySelector('.like-count');
+      let count = parseInt(countSpan.textContent);
+      countSpan.textContent = count + 1;
+    }
+
+    function commentShayari() {
+      alert("💬 कमेंट फीचर जल्द आ रहा है!");
+    }
+
+    function shareShayari() {
+      alert("🔗 लिंक कॉपी हो गया (Coming Soon)");
+    }
+  </script>
+</body>
+</html>
 <!-- Shayari Section Start --><section id="shayari" style="padding: 40px; color: white; font-family: 'Poppins', sans-serif;">
   <h2 style="text-align: center; font-size: 2.5rem; color: #ff00ff; text-shadow: 0 0 10px #ff00ff;">🔥 Motivational Shayari</h2>  <!-- Shayari Cards -->  <div class="shayari-card">
     <p>"जो चलते रहे तूफानों में,<br>वही रौशनी बनते हैं ज़माने में।"</p>
