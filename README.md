@@ -1,7 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JBR KING DINU</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-<!-- welcome to my website -->
+    .welcome-text {
+      text-align: center;
+      font-size: 48px;
+      font-weight: bold;
+      margin-top: 50px;
+      background: linear-gradient(90deg, #ff6a00, #ee0979, #00c9ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s infinite alternate;
+    }
 
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff6a00, 0 0 20px #ee0979;
+      }
+      to {
+        text-shadow: 0 0 20px #00c9ff, 0 0 30px #00c9ff;
+      }
+    }
+  </style>
+</head>
+<body>
 
+  <h1 class="welcome-text">Welcome to My Website</h1>
+
+</body>
+</html>
 <!-- Shayari Section Start --><section id="shayari" style="padding: 40px; color: white; font-family: 'Poppins', sans-serif;">
   <h2 style="text-align: center; font-size: 2.5rem; color: #ff00ff; text-shadow: 0 0 10px #ff00ff;">🔥 Motivational Shayari</h2>  <!-- Shayari Cards -->  <div class="shayari-card">
     <p>"जो चलते रहे तूफानों में,<br>वही रौशनी बनते हैं ज़माने में।"</p>
