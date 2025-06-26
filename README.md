@@ -1,15 +1,3 @@
- @keyframes glow {
-      from {
-        text-shadow: 0 0 10px #ff6a00, 0 0 20px #ee0979;
-      }
-      to {
-        text-shadow: 0 0 20px #00c9ff, 0 0 30px #00c9ff;
-      }
-    }
-  </style>
-</head>
-<body>
-
   <h1 class="welcome-text">Welcome to My Website</h1>
 
 </body>
