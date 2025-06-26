@@ -1,3 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dinu Meghwanshi",
+  "alternateName": "JBR KING DINU",
+  "url": "https://dinu772.github.io/",
+  "sameAs": [
+    "https://www.instagram.com/dinu_meghwanshiii"
+  ],
+  "jobTitle": "Motivational Creator",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bhilwara",
+    "addressRegion": "Rajasthan",
+    "addressCountry": "India"
+  }
+}
+</script>
 <!-- About Me search
 <!DOCTYPE html>
 <html lang="hi">
