@@ -52,3 +52,23 @@
   </a>
 </section>
 <h1>𝓓𝓲𝓷𝓾 𝓜𝓮𝓰𝓱𝔀𝓪𝓷𝓼𝓱𝓲</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="JBR KING DINU MEGHWANSHI | Official Website">
+  <meta name="description" content="Official website of Dinu Meghwanshi aka JBR KING DINU from Bhilwara, Rajasthan. Follow on Instagram, YouTube, Discord. Motivational content & more.">
+  <meta name="keywords" content="Dinu, JBR, JBR KING DINU, JBR KING, Dinu Meghwanshi, JBR KING DINU MEGHWANSHI, JBR Dinu Meghwansi, Rajasthani Dinu, Meghwansi boy, Bhilwara wala Dinu">
+  <meta name="author" content="Dinu Meghwanshi">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph for Social Sharing -->
+  <meta property="og:title" content="JBR KING DINU MEGHWANSHI">
+  <meta property="og:description" content="Official website of Dinu Meghwanshi from Bhilwara, Rajasthan.">
+  <meta property="og:url" content="https://dinu772.github.io/">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="https://img.icons8.com/fluency/48/instagram-new.png">
+  
+  <title>JBR KING DINU MEGHWANSHI</title>
+</head>
