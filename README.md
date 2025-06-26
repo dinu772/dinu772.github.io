@@ -1,3 +1,75 @@
+<!-- Shayari Card with Action Buttons -->
+<div class="shayari-card">
+  <p>"जो चलते रहे तूफानों में,<br>वही रौशनी बनते हैं ज़माने में।"</p>
+
+  <div class="shayari-actions">
+    <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
+    <button onclick="commentShayari()">💬</button>
+    <button onclick="shareShayari()">🔗</button>
+  </div>
+</div>
+
+<!-- Shayari Style + Button Design -->
+<style>
+.shayari-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ff00ff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 0 15px #ff00ff55;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.shayari-card p {
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px #fff;
+}
+
+.shayari-actions {
+  margin-top: 15px;
+}
+
+.shayari-actions button {
+  background: transparent;
+  color: #ff00ff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: transform 0.2s;
+}
+
+.shayari-actions button:hover {
+  transform: scale(1.3);
+  text-shadow: 0 0 10px #ff00ff;
+}
+</style>
+
+<!-- Shayari Action Script -->
+<script>
+  function likeShayari(btn) {
+    const countSpan = btn.querySelector(".like-count");
+    let current = parseInt(countSpan.innerText);
+    countSpan.innerText = current + 1;
+  }
+
+  function commentShayari() {
+    const userComment = prompt("💬 Apna comment likhiye:");
+    if (userComment) {
+      alert("✅ Comment received: " + userComment);
+    }
+  }
+
+  function shareShayari() {
+    const link = window.location.href;
+    navigator.clipboard.writeText(link);
+    alert("🔗 Link copied! Share it with your friends.");
+  }
+</script>
 <!-- Shayari Card -->
 <div class="shayari-card">
   <p class="shayari-text">
