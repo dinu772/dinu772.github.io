@@ -1,3 +1,7 @@
+
+<!-- welcome to my website -->
+
+
 <!-- Shayari Section Start --><section id="shayari" style="padding: 40px; color: white; font-family: 'Poppins', sans-serif;">
   <h2 style="text-align: center; font-size: 2.5rem; color: #ff00ff; text-shadow: 0 0 10px #ff00ff;">🔥 Motivational Shayari</h2>  <!-- Shayari Cards -->  <div class="shayari-card">
     <p>"जो चलते रहे तूफानों में,<br>वही रौशनी बनते हैं ज़माने में।"</p>
