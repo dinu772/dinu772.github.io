@@ -1,3 +1,55 @@
+<!-- Shayari Card -->
+<div class="shayari-card">
+  <p class="shayari-text">
+    🔥 "मंज़िल मिलेगी भटक कर ही सही,<br>
+    गुमराह तो वो हैं जो घर से निकले ही नहीं।"
+  </p>
+
+  <!-- Action Icons -->
+  <div class="shayari-actions">
+    <span title="Like">❤️</span>
+    <span title="Comment">💬</span>
+    <span title="Share">🔗</span>
+  </div>
+</div>
+
+<!-- CSS Style (add in <style> tag or CSS file) -->
+<style>
+.shayari-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ff00ff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 600px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 20px #ff00ff77;
+}
+
+.shayari-text {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  text-shadow: 0 0 5px #fff;
+}
+
+.shayari-actions {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.shayari-actions span {
+  margin: 0 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.shayari-actions span:hover {
+  transform: scale(1.3);
+  text-shadow: 0 0 10px #ff00ff;
+}
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
