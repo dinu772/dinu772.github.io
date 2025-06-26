@@ -1,15 +1,4 @@
-welcome-text {
-      text-align: center;
-      font-size: 48px;
-      font-weight: bold;
-      margin-top: 50px;
-      background: linear-gradient(90deg, #ff6a00, #ee0979, #00c9ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: glow 2s infinite alternate;
-    }
-
-    @keyframes glow {
+ @keyframes glow {
       from {
         text-shadow: 0 0 10px #ff6a00, 0 0 20px #ee0979;
       }
