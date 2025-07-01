@@ -113,7 +113,7 @@
 
     .shayari-actions button:hover {
       background: #00b3b3;
-    }
+    
 
     .like-count {
       margin-left: 5px;
@@ -135,23 +135,147 @@
       font-style: italic;
       color: #a0f0ff;
     }
+
+  <!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>JBR KING DINU - Shayari ❤️</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 30px;
+    }
+    .shayari-card {
+      background: #1e1e1e;
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 15px rgba(255, 0, 100, 0.3);
+    }
+    .shayari {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .shayari-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .shayari-actions button {
+      background: #292929;
+      color: #ffb3d1;
+      border: none;
+      padding: 8px 14px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .shayari-actions button:hover {
+      background: #ff1c78;
+      color: white;
+    }
+    .like-count {
+      margin-left: 5px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+    li {
+      padding: 5px 0;
+      border-bottom: 1px solid #333;
+    }
+    h1 {
+      text-align: center;
+      color: #ff44ff;
+      margin-bottom: 30px;
+    }
   </style>
 </head>
 <body>
+
+<h1>✨ JBR KING DINU - Shayari ❤️</h1>
+
 <div class="shayari-card">
   <div class="shayari">
-    पिता का घर कभी झरझेर नहीं होता। <br>
-    खूब सूरत उससे कहीं म्नेजर नहीं होता। <br>
-    बसत है जहां सपने बचपन के। <br>
+    पिता का घर कभी झरझेर नहीं होता।<br>
+    खूब सूरत उससे कहीं म्नेजर नहीं होता।<br>
+    बसत है जहां सपने बचपन के।<br>
     उससे पावन कोई मन्दिर नहीं होता।
   </div>
   <div class="shayari-actions">
     <button onclick="likeShayari(this)">❤️ <span class="like-count">0</span></button>
-    <button onclick="commentShayari()">💬</button>
-    <button onclick="shareShayari()">🔗</button>
+    <button onclick="copyShayari(this)">📋 Copy</button>
+    <button onclick="shareWhatsApp(this)">📲 WhatsApp</button>
   </div>
+
+  <input type="text" placeholder="💬 Type your comment" id="userComment">
+  <button onclick="saveComment()">Send</button>
+  <ul id="commentsList"></ul>
 </div>
 
+<script>
+function likeShayari(button) {
+  let countSpan = button.querySelector('.like-count');
+  let count = parseInt(countSpan.textContent);
+  countSpan.textContent = count + 1;
+}
+
+function copyShayari(button) {
+  const shayariText = button.parentElement.previousElementSibling.innerText;
+  navigator.clipboard.writeText(shayariText).then(() => {
+    alert("✅ Shayari copied! Now paste it on Instagram Story.");
+  });
+}
+
+function shareWhatsApp(button) {
+  const shayariText = button.parentElement.previousElementSibling.innerText;
+  const url = `https://wa.me/?text=${encodeURIComponent(shayariText + ' - via JBR KING DINU ❤️')}`;
+  window.open(url, '_blank');
+}
+
+function saveComment() {
+  const comment = document.getElementById('userComment').value;
+  if (comment) {
+    let list = document.getElementById('commentsList');
+    let li = document.createElement('li');
+    li.textContent = comment;
+    list.appendChild(li);
+    localStorage.setItem('comment_' + Date.now(), comment);
+    document.getElementById('userComment').value = '';
+  }
+}
+
+window.onload = function () {
+  let list = document.getElementById('commentsList');
+  for (let i = 0; i < localStorage.length; i++) {
+    let key = localStorage.key(i);
+    if (key.startsWith("comment_")) {
+      let li = document.createElement('li');
+      li.textContent = localStorage.getItem(key);
+      list.appendChild(li);
+    }
+  }
+}
+</script>
+
+</body>
+</html>
   <h1>🤝 दोस्ती की शायरी 🤝</h1>
 
   <!-- Dosti Shayari Block 1 -->
