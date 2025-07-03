@@ -51,8 +51,7 @@
   <h2>📞 Contact Us</h2>
   <p><strong>Name:</strong> Dinu Meghwanshi</p>
   <p><strong>Instagram:</strong> <a href="https://instagram.com/dinu_meghwanshiii" target="_blank">@dinu_meghwanshiii</a></p>
-  <p><strong>WhatsApp:</strong> <a href="https://wa.me/919999999999">Click to Chat</a></p>
-  <p><strong>Email:</strong> jbrdigitalworks@gmail.com</p>
+
   <p><strong>Location:</strong> Bhilwara, Rajasthan</p>
   <p><strong>Payment via:</strong> PhonePe / GPay – <strong>dinu0404@ybl</strong></p>
 </section><footer>
